@@ -36,7 +36,6 @@ namespace sb_task_4_3
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            //var C = MultiplyJagged(A, B);
             
             Parallel.For(0, x_rows, MultiplyJagged);
 
